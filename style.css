@@ -1,0 +1,60 @@
+/* body, html{
+    margin: 0;
+    
+    font-family:lato,serif;
+    font-weight: 1.8em;
+    font-size: 16px;
+    background-color: white;
+} */
+.pimg1{
+    background-image: url(images/bilal@.jpg);
+    min-height: 100vh;
+    
+}
+.pimg2{
+    background-image: url(images/bilal7.jpg);
+min-height: 100vh;
+
+}
+.pimg3{
+    background-image: url(images/vilalimage.jpg);
+    min-height: 100vh;  position: relative;
+
+    
+}
+.pimg1, .pimg2, .pimg3{
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: no-repeat;
+    background-attachment: fixed;
+
+
+
+} 
+.bgimg1, .bgimg2, .bgimg3 {
+    
+position: absolute;
+top: 50%;
+left: 50%;
+
+    
+}
+.small_box, .small_box2, .small_box3{
+    background-color: grey;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    
+
+}
+.small_box, .small_box2, .small_box3:hover{
+    transition: .5s ease-in;
+    background-color: aqua;
+    color: blue;
+    font-style: italic;
+    cursor: pointer;
+   
+}
