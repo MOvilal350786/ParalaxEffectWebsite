@@ -7,17 +7,17 @@
     background-color: white;
 } */
 .pimg1{
-    background-image: url(images/bilal@.jpg);
+    background-image: url(images/3tcysanfk6fc2.jpeg);
     min-height: 100vh;
     
 }
 .pimg2{
-    background-image: url(images/bilal7.jpg);
+    background-image: url(images/paralax_image1.webp);
 min-height: 100vh;
 
 }
 .pimg3{
-    background-image: url(images/vilalimage.jpg);
+    background-image: url(images/paralax5.webp);
     min-height: 100vh;  position: relative;
 
     
@@ -57,4 +57,9 @@ left: 50%;
     font-style: italic;
     cursor: pointer;
    
+}
+
+.paragraph{
+    margin-left: 20%;
+    color:blue ;
 }
